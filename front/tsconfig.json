@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2015",
+    "lib": ["es6", "dom"],
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "jsx": "react",
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "exclude": [
+    "node_modules", "dist"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "risk-control-admin-front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=development webpack",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.6.5",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router": "^4.3.1",
+    "save": "^2.3.2",
+    "yarn": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/codemirror": "0.0.57",
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-router": "^4.0.27",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-antd": "^0.5.1",
+    "babel-plugin-import": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "codemirror": "^5.39.0",
+    "cross-env": "^5.1.6",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "react-codemirror2": "^5.0.4",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "description": ""
+}
