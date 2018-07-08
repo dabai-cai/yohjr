@@ -91,7 +91,7 @@ export default class BoardComponent extends React.Component<any, {activeMenuKey:
                         <Menu mode="inline"
                                 theme="dark"
                                 defaultOpenKeys={defaultOpenKeys}
-                                // selectedKeys={[this.state.activeMenuKey]}
+                                // selectedKeys ={[this.state.activeMenuKey]}
                                 onSelect={this.menuOnSelect.bind(this)}>
                             {
                                 menuInfoArray.map(menuInfo => {
