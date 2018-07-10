@@ -38,7 +38,7 @@
             <artifactId>mybatis-spring</artifactId>
         </dependency>
 
-        <!--     -->
+        <!--    cloud -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
