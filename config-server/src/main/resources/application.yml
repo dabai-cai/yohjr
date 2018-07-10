@@ -1,9 +1,5 @@
-spring:
-  application:
-          name: config-server
 server:
     port: 8888
-
 
 spring:
   cloud:
@@ -14,3 +10,10 @@ spring:
             searchPaths: /server/src/main/resources/
             username: dabai-cai
             password: asd456++
+  application:
+    name: config-server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
