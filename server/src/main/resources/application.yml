@@ -1,5 +1,5 @@
 mybatis:
-  url: jdbc:mysql://127.0.0.1:3306/yohjr?characterEncoding=UTF-8&autoReconnect=false
+  url: jdbc:mysql://127.0.0.1:3306/yohjr?characterEncoding=UTF-8&autoReconnect=true
   username: root
   password: asd456
   driverClassName: com.mysql.jdbc.Driver
